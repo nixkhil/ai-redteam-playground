@@ -1,0 +1,61 @@
+[
+  {
+    "strategy": "polite_framing",
+    "fitness": 1.7714700000000003,
+    "uses": 7,
+    "successes": 2,
+    "wins": 0
+  },
+  {
+    "strategy": "authority_escalation",
+    "fitness": 3.0,
+    "uses": 2,
+    "successes": 0,
+    "wins": 2
+  },
+  {
+    "strategy": "indirect_reasoning",
+    "fitness": 0.81,
+    "uses": 2,
+    "successes": 0,
+    "wins": 0
+  },
+  {
+    "strategy": "format_smuggling",
+    "fitness": 2.9,
+    "uses": 3,
+    "successes": 0,
+    "wins": 2
+  },
+  {
+    "strategy": "whitespace_obfuscation",
+    "fitness": 1.0,
+    "uses": 0,
+    "successes": 0,
+    "wins": 0
+  },
+  {
+    "strategy": "authority",
+    "fitness": 3.0,
+    "uses": 2,
+    "wins": 2
+  },
+  {
+    "strategy": "best_practices",
+    "fitness": 4.0,
+    "uses": 3,
+    "wins": 3
+  },
+  {
+    "strategy": "indirect",
+    "fitness": 1.0,
+    "uses": 0,
+    "wins": 0
+  },
+  {
+    "strategy": "whitespace",
+    "fitness": 2.8,
+    "uses": 3,
+    "wins": 2
+  }
+]

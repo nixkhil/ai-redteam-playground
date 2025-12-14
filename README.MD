@@ -1,45 +1,69 @@
-## 🧠 What this project does
+# 🧪 AI Red Team Labs
 
-This application allows you to:
+AI Red Team Labs is a **living, adaptive red-teaming laboratory** for Large Language Models (LLMs).
 
-- Define a **system prompt** (security boundary)
-- Inject **malicious user payloads**
-- Poison **background context / documentation** (RAG-style attacks)
-- Send the combined input to a **real local LLM**
-- Observe how instruction-following fails
-- Automatically score **likely compromises**
+It is designed to:
+- simulate real-world adversarial pressure
+- evolve attacks based on past success
+- explain *why* a model failed, not just *that* it failed
+- serve as a teachable unit for learning LLM security
 
-It simulates real-world LLM attack surfaces:
-- Prompt injection
-- Indirect prompt injection
-- Context poisoning / RAG poisoning
-
-This is **not a chatbot**.  
-It is a **controlled LLM security testing environment**.
+This is not a static playground.  
+The system **learns as you use it**.
 
 ---
 
-## 🧱 High-level architecture
+## 🚀 Features
 
-Streamlit UI (app.py)
-↓
-Ollama HTTP API
-↓
-Mistral LLM (local)
-↓
-Model Output
-↓
-Heuristic Evaluation
+### 🧬 Evolutionary Attack Mutation Engine
+- Mutations compete based on success
+- Effective attack strategies evolve
+- Weak strategies decay over time
 
-Everything runs **locally**. No API keys required.
+### 🧠 Explainable Red-Team Analysis
+Each run reports:
+- **Attack Surface Compromised**
+- **Exploited Mechanism**
+- Clear defensive failure points
+
+### 🎛️ Mutation Control Modes
+- **Adaptive (Evolutionary)** – lab controls escalation
+- **Guided** – select mutation families
+- **Freeform** – manual payload testing
+
+### 📚 Attack Memory
+- Every run is logged
+- Patterns emerge over time
+- Enables longitudinal learning
+
+### 📱 Mobile-Friendly UI
+- Optimized for iOS Safari
+- Touch-friendly layout
+- Responsive design
 
 ---
 
-## ✅ Prerequisites (one-time)
+## 🏗️ Project Structure
+ai-red-team-labs/
+├── app.py
+├── attacks/
+│ └── jailbreaks.json
+├── assets/
+│ └── background.jpg # 1920x1080 recommended
+├── attack_memory.json
+├── mutation_pool.json
+├── requirements.txt
+└── README.md
 
-### 1️⃣ Python
-- Python **3.10+** recommended
 
-Verify:
+---
+
+## ⚙️ Installation
+
+### 1. Create virtual environment
 ```bash
-python --version
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+source .venv/bin/activate # macOS/Linux
+ollama pull mistral:instruct
+python -m streamlit run app.py
