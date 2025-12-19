@@ -31,7 +31,7 @@ The focus is **visibility, repeatability, and learning**, not one-off jailbreak 
 
 ## Architecture Summary
 - **User (Red Teamer)**
-  ↓
+↓
 - **Attack Generation / Mutation**
   ↓
 - **Attack Prompt (Visible + Diffable)**
