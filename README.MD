@@ -200,8 +200,6 @@ This logic is intentionally extensible.
 - Requests
 - Ollama running locally or OpenAI API key for GPT-4
 - Supported models (default: `mistral:instruct`)
-=======
-
 
 ### Start Ollama
 
