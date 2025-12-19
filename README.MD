@@ -198,8 +198,8 @@ This logic is intentionally extensible.
 - Python 3.10+
 - Streamlit
 - Requests
-- Ollama running locally
-- Supported model (default: `mistral:instruct`)
+- Ollama running locally or OpenAI API key for GPT-4
+- Supported models (default: `mistral:instruct`)
 
 ### Start Ollama
 
