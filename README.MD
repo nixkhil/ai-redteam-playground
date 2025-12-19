@@ -1,11 +1,11 @@
-# AI = Red Team Labs  
+# 🧪 AI Red Team Labs  
 **An Interactive LLM Evaluation Playground**
 
 ---
 
 ## Overview
 
-**AI = Red Team Labs** is an interactive lab designed to pressure-test Large Language Models (LLMs) using real red-team methodologies.
+**AI Red Team Labs** is an interactive lab designed to pressure-test Large Language Models (LLMs) using real red-team methodologies.
 
 The lab enables security researchers, ML engineers, and red teamers to:
 
