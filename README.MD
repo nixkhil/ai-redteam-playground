@@ -199,7 +199,7 @@ This logic is intentionally extensible.
 - Streamlit
 - Requests
 - Ollama running locally or OpenAI API key for GPT-4
-- Supported models (default: `mistral:instruct`)
+- Supported models (default: `mistral:instruct`), gpt-4
 
 ### Start Ollama
 
