@@ -189,26 +189,6 @@ This logic is intentionally extensible.
 
 ---
 
-## Visual Design
-
-- Full-screen background (1920×1080 recommended)
-- Dark translucent “glass” UI
-- High-contrast text for long sessions
-- Cursor styling fixed for readability
-
----
-
-## Folder Structure
-
-ai-redteam-playground/
-├── app.py
-├── attacks/
-│ └── attacks.json
-└── assets/
-└── background.jpg
-
----
-
 ## Running the Lab
 
 ### Requirements
