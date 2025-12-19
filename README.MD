@@ -199,7 +199,7 @@ This logic is intentionally extensible.
 - Streamlit
 - Requests
 - Ollama running locally
-- Supported model (default: `mistral:instruct`)
+- Supported model (default: `mistral:instruct`), GPT-4
 
 ### Start Ollama
 
