@@ -1,11 +1,11 @@
 # 🧪 AI Red Team Labs  
-**An Interactive Prompt-Attack, Escalation, and Defense Evaluation Playground**
+**An Interactive LLM Evaluation Playground**
 
 ---
 
 ## Overview
 
-**AI Red Team Labs** is an interactive, experiment-driven lab designed to systematically probe, refine, and pressure-test Large Language Models (LLMs) using real red-team methodologies.
+**AI Red Team Labs** is an interactive lab designed to pressure-test Large Language Models (LLMs) using real red-team methodologies.
 
 The lab enables security researchers, ML engineers, and red teamers to:
 
@@ -30,15 +30,15 @@ The focus is **visibility, repeatability, and learning**, not one-off jailbreak 
 ---
 
 ## Architecture Summary
-User (Red Teamer)
-↓
-Attack Generation / Mutation
-↓
-Attack Prompt (Visible + Diffable)
-↓
-Execution Against Defended LLM
-↓
-Verdict + Forensic Signals
+- User (Red Teamer)
+- ↓
+- Attack Generation / Mutation
+- ↓
+- Attack Prompt (Visible + Diffable)
+- ↓
+- Execution Against Defended LLM
+- ↓
+- Verdict + Forensic Signals
 
 
 Attack construction and execution are intentionally separated to preserve analytical clarity.
