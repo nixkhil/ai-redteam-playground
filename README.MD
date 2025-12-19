@@ -30,18 +30,20 @@ The focus is **visibility, repeatability, and learning**, not one-off jailbreak 
 ---
 
 ## Architecture Summary
-- **User (Red Teamer)**
+
+```text
+User (Red Teamer)
 ↓
-- **Attack Generation / Mutation**
-  ↓
-- **Attack Prompt (Visible + Diffable)**
-  ↓
-- **Execution Against Defended LLM**
-  ↓
-- **Verdict + Forensic Signals**
+Attack Generation / Mutation
+↓
+Attack Prompt (Visible + Diffable)
+↓
+Execution Against Defended LLM
+↓
+Verdict + Forensic Signals
+```
 
-
-Attack construction and execution are intentionally separated to preserve analytical clarity.
+## Attack construction and execution are intentionally separated to preserve analytical clarity.
 
 ---
 
